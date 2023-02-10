@@ -1,3 +1,8 @@
+Note: This is a fork which fixes the data processing script and provides Mac support.
+It provides alternate files `amp_gen_no_cuda.yml` and `run_mac.sh`.
+It also fixes the issues with data incompatibility in the provided data processing script.
+Otherwise the usage is exactly the same.
+
 # Accelerating Antimicrobial Discovery with Controllable Deep Generative Models and Molecular Dynamics
 ### This work will be published in _Nature Biomedical Engineering_ on March 11, 2021
 ### URL :  https://www.nature.com/articles/s41551-021-00689-x 

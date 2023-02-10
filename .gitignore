@@ -1,0 +1,4 @@
+data_processing/*.csv
+**/__pycache__
+tb
+output
