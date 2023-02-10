@@ -38,7 +38,7 @@ class RNN_VAE(nn.Module):
         self.n_vocab = n_vocab
         self.z_dim = z_dim
         self.c_dim = c_dim
-        self.device = torch.device('cuda')
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         """
         Word embeddings layer
